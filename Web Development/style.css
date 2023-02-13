@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+body {
+    background-color: #222;
+    font-family: "Quicksand",sans-serif;
+}
+h1, h2{
+    font-weight: bold;
+}
+h1{
+    font-size: 5em;
+    line-height: 80px;
+}
+.custom-button {
+    background-color: #f06d55;
+    border: none;
+    color: #fff;
+    font-weight: 800;
+    border-radius: 6px;
+    font-size: 18px;
+    text-decoration: none;
+}
+.workshop-bg-1 {
+    background-color: hsla(0,0%,100%,.9);
+    color: #000;
+    border-radius: 16px;
+}
+.custom-button:hover{
+    color: white;
+}
+.workshop-bg-2 {
+    background-color: #f06d55;
+    border-radius: 16px;
+    color: white;
+}
+.workshop-bg-2 .custom-button {
+    background-color: #000 !important;
+}
+.work-img { 
+    width: 60%;
+    filter: grayscale(1);
+}
+.work-img:hover {
+    filter: grayscale(0); 
+    cursor: pointer;
+}
+.work-img, .work-img:hover {
+    transition: filter .2s ease-in-out;
+}
+.work-inquiry{
+    background-color: hsla(0,0%,100%,.9);
+    color: #000;
+    border-radius: 16px;
+}
+.footer .social {
+    justify-content: center
+}
+.fa, .fas {
+    font-weight: 900;
+}
